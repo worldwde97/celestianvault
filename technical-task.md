@@ -1,4 +1,4 @@
-Нужно создать сайт Celestian Wallet с несколькими страницами. Дизайн на твое усмотрение, всё в одном стиле. Несколько страниц которые прилинкованы друг к другу. пример текста будет ниже, сделать рерайт, добавить \\ убрать секции на свое усмотрение, главное чтобы осталась суть. Картинки для дизайна пронумеруй от 1 до 10 и т.д. в порядке их использования сверху низ, затем я вставлю их вручную. кнопки все ведут на страницу регистрации или на логин. На странице регистрации всё должно работать, базу подкручивать не нужно. Страница регистрации работает условно, главное условие имя пользователя пароль почта. Если всё соответствует требованием, крутится загрузочный кружок 3 секунды и затем сообщение что Регистрация в "Celestian Wallet" запрещена в вашем регионе" всё на английском. Страница логина просто выдает, неправильный логин и пароль. Celestian сделать переменной чтобы в будущем можно было поменять быстро
+Нужно создать сайт CelestianVault с несколькими страницами. Дизайн на твое усмотрение, всё в одном стиле. Несколько страниц которые прилинкованы друг к другу. пример текста будет ниже, сделать рерайт, добавить \\ убрать секции на свое усмотрение, главное чтобы осталась суть. Картинки для дизайна пронумеруй от 1 до 10 и т.д. в порядке их использования сверху низ, затем я вставлю их вручную. кнопки все ведут на страницу регистрации или на логин. На странице регистрации всё должно работать, базу подкручивать не нужно. Страница регистрации работает условно, главное условие имя пользователя пароль почта. Если всё соответствует требованием, крутится загрузочный кружок 3 секунды и затем сообщение что Регистрация в "CelestianVault" запрещена в вашем регионе" всё на английском. Страница логина просто выдает, неправильный логин и пароль. Celestian сделать переменной чтобы в будущем можно было поменять быстро
 
 
 
@@ -62,7 +62,7 @@ Smart Way To Manage Your Crypto
 
 
 
-Celestian Wallet is an ultimate solution for modern crypto management. You can do it all from the comfort of one single web app. Replenish, Instantly Exchange at best rates, create few wallet addresses, add extra security layer with Multisignature, and more.
+CelestianVault is an ultimate solution for modern crypto management. You can do it all from the comfort of one single web app. Replenish, Instantly Exchange at best rates, create few wallet addresses, add extra security layer with Multisignature, and more.
 
 
 
@@ -202,7 +202,7 @@ Celestian Wallet is an ultimate solution for modern crypto management. You can d
 
 
 
-Celestian Wallet **is a non-custodial wallet, so we don’t store private data, backup files, or keys. Only users have access to their personal data. Users are the only ones who have access to private information. No transactions can be tracked by third party. Fingerprint authentication and PIN protection are some of the available security features.**
+CelestianVault **is a non-custodial wallet, so we don’t store private data, backup files, or keys. Only users have access to their personal data. Users are the only ones who have access to private information. No transactions can be tracked by third party. Fingerprint authentication and PIN protection are some of the available security features.**
 
 
 
@@ -268,7 +268,7 @@ Fast Crypto Exchange
 
 
 
-Celestian Wallet platform is the fastest way to exchange any crypto-assets without registrations, KYC and long waits. It is one of the best crypto to crypto exchanges that established trust for a long time in the market.
+CelestianVault platform is the fastest way to exchange any crypto-assets without registrations, KYC and long waits. It is one of the best crypto to crypto exchanges that established trust for a long time in the market.
 
 hero image
 
@@ -292,7 +292,7 @@ Advantages of Using Crypto Coins Exchange
 
 &nbsp;   Fast
 
-&nbsp;   The exchanges that take place at Celestian Wallet are made in a matter of minutes, allowing you to save time.
+&nbsp;   The exchanges that take place at CelestianVault are made in a matter of minutes, allowing you to save time.
 
 &nbsp;   Fair
 
@@ -304,11 +304,11 @@ Advantages of Using Crypto Coins Exchange
 
 Trusted and secure  Bitcoin \& crypto exchange
 
-Celestian Wallet platform is the fastest way to exchange any crypto-assets without registrations, KYC and long waits. It is one of the best crypto to crypto exchanges that established trust for a long time in the market.
+CelestianVault platform is the fastest way to exchange any crypto-assets without registrations, KYC and long waits. It is one of the best crypto to crypto exchanges that established trust for a long time in the market.
 
-If You’re New to Celestian Wallet Crypto Exchange Wallet
+If You’re New to CelestianVault Crypto Exchange Wallet
 
-Our task is to conduct safe and quality exchanges because we focus on our customers and strictly control the processes of our clients' time. Celestian Wallet cryptocurrency exchange online doesn't just work to provide services, but our team is constantly working to simplify and speed up the adoption of crypto assets in everyday life. Therefore, we understand to what extent it is important to create an ecosystem in which it will be convenient to conduct transactions and give clients the best exchange rates.
+Our task is to conduct safe and quality exchanges because we focus on our customers and strictly control the processes of our clients' time. CelestianVault cryptocurrency exchange online doesn't just work to provide services, but our team is constantly working to simplify and speed up the adoption of crypto assets in everyday life. Therefore, we understand to what extent it is important to create an ecosystem in which it will be convenient to conduct transactions and give clients the best exchange rates.
 
 Sign Up
 
@@ -328,7 +328,7 @@ About Us
 
 
 
-Celestian Wallet is web Wallet, that supports the most popular coins and the others.
+CelestianVault is web Wallet, that supports the most popular coins and the others.
 
 10+
 
@@ -346,7 +346,7 @@ Fixie Wallet Mission
 
 
 
-Celestian Wallet developers created digital wallets that provide complete security. Everyone can use our software for easy storing and managing cryptocurrencies. We respect, appreciate, and sincerely love the blockchain technology. Our priority is the decentralization of the Fixie Wallet software in accordance with the basic principles of blockchain.
+CelestianVault developers created digital wallets that provide complete security. Everyone can use our software for easy storing and managing cryptocurrencies. We respect, appreciate, and sincerely love the blockchain technology. Our priority is the decentralization of the Fixie Wallet software in accordance with the basic principles of blockchain.
 
 
 
@@ -362,7 +362,7 @@ Milestones
 
 
 
-Celestian Wallet has started with single currency mono wallets, and now our products available from any browser, any operating system of your PC (Windows, macOS, Linux/Ubuntu), and smartphone (iOS and Android web).
+CelestianVault has started with single currency mono wallets, and now our products available from any browser, any operating system of your PC (Windows, macOS, Linux/Ubuntu), and smartphone (iOS and Android web).
 
 
 

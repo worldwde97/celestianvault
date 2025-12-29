@@ -18,7 +18,7 @@ export default function Exchange() {
     {
       icon: '⚡',
       title: 'Fast',
-      description: `The exchanges that take place at ${BRAND_NAME} Wallet are made in a matter of minutes, allowing you to save valuable time.`,
+      description: `The exchanges that take place at ${BRAND_NAME} are made in a matter of minutes, allowing you to save valuable time.`,
     },
     {
       icon: '⚖️',
@@ -38,7 +38,7 @@ export default function Exchange() {
                 Fast Crypto <span className="gradient-text">Exchange</span>
               </h1>
               <p className="text-xl text-gray-300 mb-8">
-                {BRAND_NAME} Wallet platform is the fastest way to exchange any crypto-assets without registrations,
+                {BRAND_NAME} platform is the fastest way to exchange any crypto-assets without registrations,
                 KYC and long waits. It is one of the best crypto to crypto exchanges that established trust for
                 a long time in the market.
               </p>
@@ -103,7 +103,7 @@ export default function Exchange() {
                 Trusted and Secure <span className="gradient-text">Bitcoin & Crypto Exchange</span>
               </h2>
               <p className="text-xl text-gray-300 mb-6">
-                {BRAND_NAME} Wallet platform is the fastest way to exchange any crypto-assets without registrations,
+                {BRAND_NAME} platform is the fastest way to exchange any crypto-assets without registrations,
                 KYC and long waits. It is one of the best crypto to crypto exchanges that established trust for
                 a long time in the market.
               </p>
@@ -125,13 +125,13 @@ export default function Exchange() {
 
         <div className="container-custom relative z-10">
           <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center">
-            If You're New to <span className="gradient-text">{BRAND_NAME} Wallet Crypto Exchange</span>
+            If You're New to <span className="gradient-text">{BRAND_NAME} Crypto Exchange</span>
           </h2>
           <div className="max-w-4xl mx-auto">
             <div className="card mb-8 bg-dark-card/90 backdrop-blur-sm">
               <p className="text-xl text-gray-300 mb-6">
                 Our task is to conduct safe and quality exchanges because we focus on our customers and strictly
-                control the processes of our clients' time. {BRAND_NAME} Wallet cryptocurrency exchange online
+                control the processes of our clients' time. {BRAND_NAME} cryptocurrency exchange online
                 doesn't just work to provide services, but our team is constantly working to simplify and speed
                 up the adoption of crypto assets in everyday life.
               </p>

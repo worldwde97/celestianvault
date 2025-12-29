@@ -116,7 +116,7 @@ export default function Register() {
               Create <span className="gradient-text">Account</span>
             </h1>
             <p className="text-gray-400">
-              Join {BRAND_NAME} Wallet and start managing your crypto
+              Join {BRAND_NAME} and start managing your crypto
             </p>
           </div>
 
@@ -134,7 +134,7 @@ export default function Register() {
                   Registration Restricted
                 </h2>
                 <p className="text-gray-300 mb-6">
-                  Registration in "{BRAND_NAME} Wallet" is prohibited in your region.
+                  Registration in "{BRAND_NAME}" is prohibited in your region.
                 </p>
                 <p className="text-gray-400 text-sm mb-8">
                   We apologize for the inconvenience. Our services are not available in your geographical location due to regulatory restrictions.

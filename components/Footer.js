@@ -27,7 +27,7 @@ export default function Footer() {
               <div className="w-10 h-10 bg-gradient-blue rounded-lg flex items-center justify-center font-bold text-xl">
                 {BRAND_NAME.charAt(0)}
               </div>
-              <span className="text-xl font-bold gradient-text">{BRAND_NAME} Wallet</span>
+              <span className="text-xl font-bold gradient-text">{BRAND_NAME}</span>
             </div>
             <p className="text-gray-400 text-sm">
               Secure and convenient online crypto wallet for Bitcoin and other assets available anywhere at anytime.
@@ -54,7 +54,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-dark-border flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p className="text-gray-500 text-sm">
-            © 2024 {BRAND_NAME} Wallet. All rights reserved.
+            © 2024 {BRAND_NAME}. All rights reserved.
           </p>
           <div className="flex space-x-6">
             <Link href="/privacy-policy" className="text-gray-400 hover:text-primary transition-colors text-sm">

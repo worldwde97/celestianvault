@@ -1,4 +1,4 @@
-# Celestian Wallet
+# CelestianVault
 
 A modern, secure cryptocurrency wallet website built with Next.js 16.
 
@@ -119,7 +119,7 @@ Image placeholders are numbered from 1 to 23 throughout the site. Replace them b
   - Password (min 8 chars, uppercase, lowercase, numbers)
   - Password confirmation matching
 - 3-second loading animation
-- Shows region restriction message: "Registration in Celestian Wallet is prohibited in your region"
+- Shows region restriction message: "Registration in CelestianVault is prohibited in your region"
 
 ## Color Scheme (Dark Crypto Theme)
 

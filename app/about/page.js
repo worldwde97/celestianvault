@@ -49,10 +49,10 @@ export default function About() {
       <section className="section-padding bg-gradient-to-b from-dark-bg to-dark-card">
         <div className="container-custom text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            About <span className="gradient-text">{BRAND_NAME} Wallet</span>
+            About <span className="gradient-text">{BRAND_NAME}</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-12">
-            {BRAND_NAME} Wallet is a web wallet that supports the most popular coins and many others,
+            {BRAND_NAME} is a web wallet that supports the most popular coins and many others,
             providing you with complete control over your digital assets.
           </p>
 
@@ -85,7 +85,7 @@ export default function About() {
             <div>
               <Image
                 src="/images/boost_rewards.png"
-                alt="Celestian Wallet Mission"
+                alt="CelestianVault Mission"
                 width={600}
                 height={400}
                 className="mx-auto rounded-2xl"
@@ -93,18 +93,18 @@ export default function About() {
             </div>
             <div>
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
-                <span className="gradient-text">{BRAND_NAME} Wallet</span> Mission
+                <span className="gradient-text">{BRAND_NAME}</span> Mission
               </h2>
               <div className="space-y-6 text-gray-300">
                 <p className="text-lg">
-                  {BRAND_NAME} Wallet developers created digital wallets that provide complete security.
+                  {BRAND_NAME} developers created digital wallets that provide complete security.
                   Everyone can use our software for easy storing and managing cryptocurrencies. We respect,
                   appreciate, and sincerely love blockchain technology. Our priority is the decentralization
-                  of the {BRAND_NAME} Wallet software in accordance with the basic principles of blockchain.
+                  of the {BRAND_NAME} software in accordance with the basic principles of blockchain.
                 </p>
                 <p className="text-lg">
                   User privacy and safety are the main postulates for us, that is why we do not store your
-                  private keys, backup files, or any other data on {BRAND_NAME} Wallet servers. All your
+                  private keys, backup files, or any other data on {BRAND_NAME} servers. All your
                   private data is stored only by you. Our wallet is lightweight, has a convenient and
                   intuitive interface.
                 </p>
@@ -137,7 +137,7 @@ export default function About() {
             Our <span className="gradient-text">Journey</span>
           </h2>
           <p className="text-xl text-gray-300 text-center max-w-4xl mx-auto mb-16">
-            {BRAND_NAME} Wallet has started with single currency mono wallets, and now our products are
+            {BRAND_NAME} has started with single currency mono wallets, and now our products are
             available from any browser, any operating system of your PC (Windows, macOS, Linux/Ubuntu),
             and smartphone (iOS and Android web).
           </p>

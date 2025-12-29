@@ -291,7 +291,7 @@ export default function WebWallet() {
                 Top Security Wallet For Your <span className="gradient-text">Crypto Assets</span>
               </h2>
               <p className="text-xl text-gray-300 mb-8">
-                {BRAND_NAME} Wallet is a non-custodial wallet, so we don't store private data, backup files, or keys.
+                {BRAND_NAME} is a non-custodial wallet, so we don't store private data, backup files, or keys.
                 Only users have access to their personal data. No transactions can be tracked by third parties.
                 Fingerprint authentication and PIN protection are some of the available security features.
               </p>
@@ -416,7 +416,7 @@ export default function WebWallet() {
             Start Using Your Web Wallet Today
           </h2>
           <p className="text-xl mb-8 opacity-90">
-            Access your crypto anywhere, anytime with {BRAND_NAME} Wallet
+            Access your crypto anywhere, anytime with {BRAND_NAME}
           </p>
           <Link href="/register" className="btn-primary">
             Create Your Wallet

@@ -177,7 +177,7 @@ export default function Home() {
             Smart Way To <span className="gradient-text">Manage Your Crypto</span>
           </h2>
           <p className="text-xl text-gray-300 text-center max-w-4xl mx-auto mb-12">
-            {BRAND_NAME} Wallet is the ultimate solution for modern cryptocurrency management.
+            {BRAND_NAME} is the ultimate solution for modern cryptocurrency management.
             Experience seamless control from a single web app. Replenish your balance, instantly
             exchange at the best rates, create multiple wallet addresses, add extra security with
             Multisignature protection, and much more.

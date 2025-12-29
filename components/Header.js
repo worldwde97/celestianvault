@@ -28,7 +28,7 @@ export default function Header() {
               height={40}
               className="rounded-lg"
             />
-            <span className="text-xl font-bold gradient-text">{BRAND_NAME} Wallet</span>
+            <span className="text-xl font-bold gradient-text">{BRAND_NAME}</span>
           </Link>
 
           {/* Desktop Navigation */}
