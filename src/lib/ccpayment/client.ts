@@ -174,7 +174,7 @@ class CCPaymentClient {
       console.log(`🔄 Getting deposit record: ${params.recordId}`);
 
       const response = await this.post<DepositRecordResponse>(
-        '/v2/deposit/record',
+        '/ccpayment/v2/deposit/record',
         {
           recordId: params.recordId
         }
