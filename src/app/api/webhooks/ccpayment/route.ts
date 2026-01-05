@@ -50,6 +50,7 @@ export async function POST(request: NextRequest) {
 
     console.log('📨 CCPayment webhook received');
     console.log('📋 Headers:', { appId, timestamp, signature: signature?.substring(0, 20) + '...' });
+    console.log('📦 Raw body:', rawBody);
 
     // Проверка обязательных заголовков
     if (!appId || !timestamp || !signature) {
@@ -60,19 +61,31 @@ export async function POST(request: NextRequest) {
       });
     }
 
-    // Проверка timestamp (должен быть валиден в течение 2 минут)
+    // Получаем клиент и проверяем AppId
+    const client = getCCPaymentClient();
+    const expectedAppId = process.env.CCPAYMENT_MERCHANT_ID || process.env.CCPAYMENT_API_KEY;
+
+    // КРИТИЧНО: Проверка что AppId совпадает с нашим
+    if (appId !== expectedAppId) {
+      console.error('❌ Invalid AppId:', { received: appId, expected: expectedAppId?.substring(0, 10) + '...' });
+      return Response.json(
+        { error: 'Invalid AppId' },
+        { status: 401 }
+      );
+    }
+
+    // Проверка timestamp (должен быть валиден в течение 5 минут согласно документации)
     const now = Math.floor(Date.now() / 1000);
     const timestampNum = parseInt(timestamp);
-    if (Math.abs(now - timestampNum) > 120) {
+    if (Math.abs(now - timestampNum) > 300) {
       console.error('❌ Timestamp expired:', { now, timestamp: timestampNum, diff: now - timestampNum });
-      return new Response('Timestamp expired', {
-        status: 401,
-        headers: { 'Content-Type': 'text/plain; charset=utf-8' }
-      });
+      return Response.json(
+        { error: 'Invalid or expired timestamp' },
+        { status: 401 }
+      );
     }
 
     // Проверка подписи webhook
-    const client = getCCPaymentClient();
     const isValidSignature = client.verifyWebhookSignature(rawBody, signature, appId, timestamp);
 
     if (!isValidSignature) {

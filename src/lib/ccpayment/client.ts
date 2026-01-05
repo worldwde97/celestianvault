@@ -192,7 +192,13 @@ class CCPaymentClient {
   /**
    * Verify Webhook Signature
    * Проверка подписи webhook согласно документации
-   * Sign = HMAC-SHA256(appId + timestamp + payloadJSON, appSecret)
+   * Sign = HMAC-SHA256(appId + timestamp + body, appSecret)
+   *
+   * Из документации:
+   * let signText = appId + timestamp;
+   * if (Object.keys(req.body).length > 0) {
+   *   signText += JSON.stringify(req.body);
+   * }
    */
   verifyWebhookSignature(
     payload: string,
@@ -201,12 +207,28 @@ class CCPaymentClient {
     timestamp: string
   ): boolean {
     try {
-      const signText = `${appId}${timestamp}${payload}`;
+      // Согласно примеру Express.js от CCPayment:
+      // signText = appId + timestamp + (body если не пустой)
+      let signText = `${appId}${timestamp}`;
+
+      // Добавляем body если он не пустой
+      if (payload && payload.length > 0) {
+        signText += payload;
+      }
+
+      console.log('🔍 Verifying signature:');
+      console.log('  AppId:', appId?.substring(0, 10) + '...');
+      console.log('  Timestamp:', timestamp);
+      console.log('  Payload length:', payload?.length || 0);
+      console.log('  SignText length:', signText.length);
 
       const expectedSignature = crypto
         .createHmac('sha256', this.config.appSecret)
         .update(signText)
         .digest('hex');
+
+      console.log('  Expected signature:', expectedSignature.substring(0, 20) + '...');
+      console.log('  Received signature:', signature.substring(0, 20) + '...');
 
       const isValid = crypto.timingSafeEqual(
         Buffer.from(signature),
