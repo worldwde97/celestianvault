@@ -26,17 +26,16 @@ export const db = mysql.createPool({
 
 /**
  * Execute SQL query with proper error handling
- * @param {string} sql
- * @param {Array} values
+ * Returns the result rows as an array
  */
-export async function query(sql, values = []) {
+export async function query(sql: string, values: any[] = []): Promise<any[]> {
   const connection = await db.getConnection();
   try {
     const [result] = await connection.query(sql, values);
-    return result;
+    return result as any[];
   } catch (err) {
     console.error("MySQL error:", err);
-    throw err; // Properly propagate errors instead of swallowing them
+    throw err;
   } finally {
     connection.release();
   }
